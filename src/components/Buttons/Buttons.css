@@ -1,0 +1,72 @@
+@import '../../common/css/colors.css';
+
+.buttonGroup {
+    background-color: var(--buttonBackground);
+    height: 9rem;
+    font-family: Oxygen Bold;
+    font-size: 16pt;
+}
+.acceptButton {
+    background-color: var(--acceptColor);
+    font-size: 2rem;
+    width: 20%;
+    border-radius: .275rem;
+    height: 5rem;
+    float: left;
+    color: var(--textColor);
+    margin-left: 4rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.transferButton {
+    background-color: var(--transferColor);
+    font-size: 2rem;
+    width: 20%;
+    border-radius: .275rem;
+    height: 5rem;
+    color: var(--textColor);
+    margin-left: 3.75rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.declineButton {
+    background-color: var(--declineColor);
+    font-size: 2rem;
+    width: 20%;
+    border-radius: .275rem;
+    font-size: 2rem;
+    height: 5rem;
+    color: var(--textColor);
+    float: right;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 64em) {
+}
+
+@media (max-width: 48em) {
+    .acceptButton {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+
+    .transferButton {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+
+    .declineButton {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+
+    .buttonGroup {
+        height: auto;
+    }
+}

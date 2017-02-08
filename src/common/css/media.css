@@ -1,0 +1,3 @@
+@custom-media --smallDevice (width < 48em);
+@custom-media --mediumDevice (width >= 48em) and (width < 64em);
+@custom-media --largeDevice (width >= 48em);

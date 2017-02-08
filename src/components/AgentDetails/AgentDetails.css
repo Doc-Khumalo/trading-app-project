@@ -1,0 +1,32 @@
+@import "../../common/css/media.css";
+
+.agentWrapper {
+    float: right;
+    margin: 2rem;
+    margin-right: 15rem;
+}
+
+.subHeader {
+    font-weight: 700;
+}
+
+@media (max-width: 64em) {
+    .agentWrapper {
+        float: none;
+        margin: 2rem;
+        width: auto;
+        height: auto;
+        border-bottom-style: inset;
+    }
+}
+
+@media (max-width: 48em) {
+    .agentWrapper {
+        float: none;
+        margin: 2rem;
+        width: auto;
+        height: auto;
+        border-bottom-style: dashed;
+    }
+}
+

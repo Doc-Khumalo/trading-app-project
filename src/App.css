@@ -1,0 +1,37 @@
+.componentContainer {
+  width: 65%;
+}
+
+.customWrapper {
+  margin: 5rem;
+  width: 985px;
+  line-height: 2.5rem;
+}
+
+@media (max-width: 64em) {
+  .customWrapper {
+    margin: 5rem;
+    width: 870px;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63em){
+  .customWrapper {
+    margin-top: 5rem;
+    width: 750px;
+    margin: 0;
+}
+
+}
+
+@media (max-width: 48em) {
+  .customWrapper {
+    margin: 0;
+    width: auto;
+  }
+}
+
+img {
+  vertical-align: middle;
+  margin: .5rem;
+}

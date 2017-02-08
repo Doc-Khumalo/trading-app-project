@@ -1,0 +1,138 @@
+.accountInfo {
+    margin-left: 4rem;
+}
+
+.cutomTes {
+    float: right;
+    margin-right: 15rem;
+    margin-left: 4.65rem;
+}
+
+.agentWrapper {
+    margin: 2rem;
+}
+
+h1 {
+    margin-left: 4rem;
+}
+
+.colMdCcustom {
+    width: 51.333333%;
+}
+
+.mainContact {
+    float: right;
+    margin-right: 3.375rem;
+}
+
+.clientInfo {
+    float: left;
+}
+
+.headerSplitLeft {
+    width: 50%;
+}
+
+.headerSplitRight {
+    width: 50%;
+}
+
+.groupComponents {
+    margin-left: 3rem;
+    border-bottom-style: none;
+}
+
+@media (max-width: 64em) {
+    .accountInfo {
+        /*margin: 2rem;*/
+    }
+
+    h1 {
+        margin: 2rem;
+    }
+
+    .agentWrapper {
+        margin: 2rem;
+    }
+
+    .colMdCcustom {
+        width: 51.333333%;
+    }
+
+    .mainContact {
+        float: right;
+        margin-right: 3.375rem;
+    }
+
+    .clientInfo {
+        float: left;
+    }
+
+    .headerSplitLeft {
+        width: 50%;
+    }
+
+    .headerSplitRight {
+        width: 50%;
+    }
+    .cutomTes {
+        float: none;
+        margin-left: 0.15rem;
+        width: 98%;
+        padding-left: 2rem;
+    }
+
+    .callImage {
+        padding-left: 0;
+        float: right;
+    }
+
+    .groupComponents {
+        margin-left: 0.75rem;
+    }
+
+    .customWrapper {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .accountInfo {
+        margin: 2rem;
+    }
+
+    h1 {
+        margin: 2rem;
+    }
+
+    .customWrapper {
+        float: none;
+        margin: 0;
+        width: auto;
+    }
+    .mainContact {
+        float: none;
+        padding-right: 0;
+    }
+
+    .clientInfo {
+        float: none;
+    }
+
+    .callImage {
+        padding-left: 0;
+        float: right;
+    }
+
+    .cutomTes {
+        float: none;
+        margin-left: -1.85rem;
+        border-bottom-style: inset;
+        width: 98%;
+        padding-left: 2rem;
+    }
+
+    .groupComponents {
+        margin-left: -1.25rem;
+    }
+}

@@ -1,0 +1,48 @@
+.customRow {
+    width: 64.456%;
+    margin-left: 1.15rem;
+}
+
+.customBorder {
+    margin-left: 0;
+}
+.row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media (max-width: 64em) {
+    .customRow {
+        width: 58%;
+        border-right-style: none;
+        margin: 1.2rem;
+    }
+
+    .customBorder {
+        margin-left: 0;
+    }
+    .row {
+        margin-bottom: 0;
+        padding-left: 0rem;
+        width: 104%;
+    }
+}
+
+@media (max-width: 48em) {
+    .customRow {
+        margin-left: -1rem;
+        width: 95%;
+        padding-bottom: 1rem;
+        border-right-style: none;
+    }
+
+    .row {
+        margin-bottom: 0;
+        border-bottom-style: inset;
+        padding-left: 0rem;
+        width: 104%;
+    }
+    .customBorder {
+        margin-left: 0;
+    }
+}

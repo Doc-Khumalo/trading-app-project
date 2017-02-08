@@ -1,0 +1,10 @@
+:root{
+    --linkColor: #1DACFC;
+    --acceptColor: #48CC52;
+    --transferColor: var(--linkColor);
+    --declineColor: #F35A4A;
+    --textColor: #FFFFFF;
+    --buttonBackground: #E8EFF2;
+    --backgroundColor: var(--textColor);
+    --headerColor: #8E9395;
+}
